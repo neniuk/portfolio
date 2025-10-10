@@ -9,6 +9,7 @@
     },
     "scripts": {
         "install": "cd client && npm install --include=dev && cd ../server && npm install --include=dev",
+        "install:prod": "cd client && npm ci --omit=dev && cd ../server && npm ci --omit=dev",
         "build": "cd client && npm run build:to:server && cd ../server && npm run build",
         "start": "cd server && npm start",
         "test": "echo \"Error: no test specified\" && exit 1",
