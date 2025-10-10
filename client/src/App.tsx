@@ -25,7 +25,7 @@ let reconnectDelay: number = MIN_RECONNECT_DELAY;
 const DEV_SERVER_PORT = 5000;
 const DEV_ADDRESS = "http://localhost:" + DEV_SERVER_PORT;
 
-const PROD_ADDRESS = "https://www.neniuk.dev/";
+const PROD_ADDRESS = "https://neniuk.dev/";
 
 let SERVER_ADDRESS = "";
 if (ENVIRONMENT === "development") {
