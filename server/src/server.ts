@@ -72,6 +72,10 @@ if (ENVIRONMENT === "development") {
     throw new Error("Invalid environment");
 }
 
+app.get("/health", (_req: Request, res: Response) => {
+    res.status(200).send("OK");
+});
+
 const clientPath = path.join(__dirname, "../client");
 app.use(express.static(clientPath));
 app.get("*", (_req: Request, res: Response, _next: NextFunction) => {
