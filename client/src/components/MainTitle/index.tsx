@@ -25,7 +25,7 @@ const MainTitle: React.FC = () => {
                 />
             )}
             <h3 className="text-titleColorSecondary text-center text-3xl">
-                NENIUK.DEV
+                NENIUK.COM
             </h3>
             {mainTitleIsLoading ? (
                 <div className="h-[32px] w-[320px]"></div>

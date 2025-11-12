@@ -30,8 +30,8 @@ if (ENVIRONMENT === "development") {
 } else if (ENVIRONMENT === "production") {
     console.log("Running in production mode");
     ALLOWED_ORIGINS = [
-        "https://neniuk.dev",
-        "https://www.neniuk.dev",
+        "https://neniuk.com",
+        "https://www.neniuk.com",
         // Duc's portfolio :)
         // "https://portfolio-duc-app-39771e993c9d.herokuapp.com/",
         // "https://www.ducduong.dev/",
