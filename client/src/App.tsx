@@ -49,6 +49,7 @@ const App = () => {
     const [messages, setMessages] = useState<MessageWithSender[]>([]);
     const [isConnected, setIsConnected] = useState(false);
 
+    // TODO: Seasonal effects
     // const currentMonth: number = new Date().getMonth();
     // const isWinter: boolean = currentMonth >= 10 || currentMonth <= 2;
 
