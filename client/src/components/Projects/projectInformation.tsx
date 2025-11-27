@@ -42,6 +42,26 @@ const hackathon2024: Project = {
     technologies: ["TypeScript", "React", "Three.js", "Python", "OpenCV"],
 };
 
+const hackathon2025: Project = {
+    title: "Junction Hackathon 2025",
+    link: "https://github.com/alexha11/Junction-2025",
+    description: (
+        <p>
+            A platform for automatically creating optimized pumping schedules
+            for wastewater pumping stations using a multi-agent system. Utilizes
+            a digital twin, communicating using the OPC-UA protocol, for
+            emulating station sensors, and an MCP server for providing the
+            outputs to the mutli-agent system. The dashhboard helps visualize
+            the station's current situation as well as provide insight into the
+            optimization process.
+            <br />
+            <br />
+            🥈 Received 2nd place in the HSY x Valmet challenge.
+        </p>
+    ),
+    technologies: ["Python", "TypeScript", "React", "Docker", "MCP", "GCP"],
+};
+
 const portfolio: Project = {
     title: "Portfolio Website",
     link: "https://github.com/neniuk/portfolio",
@@ -95,6 +115,7 @@ export {
     exampleProject,
     hackathon2023,
     hackathon2024,
+    hackathon2025,
     portfolio,
     arcade,
     spotifyDownloader,

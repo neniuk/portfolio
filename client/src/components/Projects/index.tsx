@@ -7,12 +7,14 @@ import {
     portfolio,
     spotifyDownloader,
     kmcPaletteGenerator,
+    hackathon2025,
 } from "./projectInformation";
 import Pill from "../Pill";
 
 const ProjectsBody: React.FC = () => {
     const [isExpanded, setIsExpanded] = useState(false);
     const projects = [
+        hackathon2025,
         portfolio,
         spotifyDownloader,
         kmcPaletteGenerator,
