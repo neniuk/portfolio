@@ -57,8 +57,9 @@ const ProfileTitle: React.FC = () => (
 const ProfileSummary: React.FC = () => (
     <div>
         <p>
-            Hi, I'm a master's student in computer science. If you have any
-            questions, feel free to contact me via LinkedIn.
+            Hi, I'm a master's student in computer science, with an interest in
+            backend development & computer graphics. If you have any questions,
+            feel free to contact me via LinkedIn.
         </p>
     </div>
 );
