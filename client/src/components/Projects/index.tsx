@@ -23,7 +23,12 @@ const ProjectsBody: React.FC = () => {
                             width="24"
                             height="24"
                         />
-                        <a href={project.link} className="project-link">
+                        <a
+                            href={project.link}
+                            className="project-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <h3 className="border-accentSecondaryColor inline-block border-b-2">
                                 {project.title}
                             </h3>
