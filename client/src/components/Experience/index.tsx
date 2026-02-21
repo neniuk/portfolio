@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Pill from "../Pill";
 
-import { experience } from "./experienceInformation";
+import experience from "../../data/experience.json";
 
 const ExperienceBody: React.FC = () => {
     const [isExpanded, setIsExpanded] = useState(false);
@@ -9,9 +9,9 @@ const ExperienceBody: React.FC = () => {
 
     return (
         <div className="flex flex-col gap-3">
-            {visibleExperience.map((exp) => (
+            {visibleExperience.map((exp, index) => (
                 <div
-                    key={exp.title}
+                    key={`${exp.title}-${exp.startDate}-${index}`}
                     className="bg-secondaryColor border-innerBorderColor flex flex-col gap-2 rounded-md border-2 border-solid p-6"
                 >
                     <div className="flex flex-row justify-between">
@@ -21,7 +21,7 @@ const ExperienceBody: React.FC = () => {
                         </p>
                     </div>
                     <div className="flex flex-col gap-4 pl-6">
-                        <div>{exp.description}</div>
+                        <p>{exp.description}</p>
                         <div className="flex flex-row flex-wrap gap-2">
                             {exp.technologies.map((tech) => (
                                 <Pill key={tech} text={tech} type="blank" />

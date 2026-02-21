@@ -1,27 +1,11 @@
 import React, { useState } from "react";
 
 import starAnimation from "../../assets/star-animation.gif";
-import {
-    hackathon2023,
-    hackathon2024,
-    portfolio,
-    spotifyDownloader,
-    kmcPaletteGenerator,
-    hackathon2025,
-} from "./projectInformation";
+import projects from "../../data/projects.json";
 import Pill from "../Pill";
 
 const ProjectsBody: React.FC = () => {
     const [isExpanded, setIsExpanded] = useState(false);
-    const projects = [
-        hackathon2025,
-        portfolio,
-        spotifyDownloader,
-        kmcPaletteGenerator,
-        hackathon2024,
-        hackathon2023,
-    ];
-
     const visibleProjects = isExpanded ? projects : projects.slice(0, 4);
 
     return (
@@ -53,7 +37,7 @@ const ProjectsBody: React.FC = () => {
                         />
                     </div>
                     <div className="flex flex-col gap-4 pl-6">
-                        <div>{project.description}</div>
+                        <p>{project.description}</p>
                         <div className="flex flex-row flex-wrap gap-2">
                             {project.technologies.map((tech) => (
                                 <Pill key={tech} text={tech} type="blank" />

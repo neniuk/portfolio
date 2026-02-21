@@ -17,18 +17,20 @@ import MessageWithSender from "./models/MessageWithSender";
 
 // Use import.meta.env for Vite/CRA or modern React apps
 const ENVIRONMENT = import.meta.env.MODE || "development";
+const ENV_SERVER_ADDRESS = import.meta.env.VITE_SERVER_ADDRESS?.trim();
 
 const MIN_RECONNECT_DELAY: number = 500;
 const MAX_RECONNECT_DELAY: number = 5000;
 let reconnectDelay: number = MIN_RECONNECT_DELAY;
 
-const DEV_SERVER_PORT = 5000;
-const DEV_ADDRESS = "http://localhost:" + DEV_SERVER_PORT;
-
+const DEV_ADDRESS = "http://localhost:5000";
 const PROD_ADDRESS = "https://neniuk.com/";
 
 let SERVER_ADDRESS = "";
-if (ENVIRONMENT === "development") {
+if (ENV_SERVER_ADDRESS) {
+    SERVER_ADDRESS = ENV_SERVER_ADDRESS;
+    console.log("Connecting to configured server from VITE_SERVER_ADDRESS");
+} else if (ENVIRONMENT === "development") {
     SERVER_ADDRESS = DEV_ADDRESS;
     console.log("Connecting to development server...");
 } else if (ENVIRONMENT === "production") {

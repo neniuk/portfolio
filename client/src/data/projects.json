@@ -1,0 +1,45 @@
+[
+    {
+        "title": "Gameboy Emulator",
+        "link": "https://github.com/neniuk/gbemu",
+        "description": "Gameboy emulator written in C++, supporting early DMG games of cartridge type 'ROM Only'.",
+        "technologies": ["C++"]
+    },
+    {
+        "title": "Junction Hackathon 2025",
+        "link": "https://github.com/alexha11/Junction-2025",
+        "description": "A platform for automatically creating optimized pumping schedules for wastewater pumping stations using a multi-agent system. Utilizes a digital twin, communicating using the OPC-UA protocol, for emulating station sensors, and an MCP server for providing the outputs to the mutli-agent system. The dashhboard helps visualize the station's current situation as well as provide insight into the optimization process. Received 2nd place in the HSY x Valmet challenge.",
+        "technologies": [
+            "Python",
+            "TypeScript",
+            "React",
+            "Docker",
+            "MCP",
+            "GCP"
+        ]
+    },
+    {
+        "title": "Playlist Downloader (CLI)",
+        "link": "https://github.com/neniuk/download-playlist",
+        "description": "A simple CLI-tool that fetches the user's playlists and the song names in the selected playlist using the Spotify API.",
+        "technologies": ["Python"]
+    },
+    {
+        "title": "KMC Palette Generator",
+        "link": "https://github.com/neniuk/kmc-palette",
+        "description": "Generates a color palette from an image using K-Means Clustering.",
+        "technologies": ["Go"]
+    },
+    {
+        "title": "Junction Hackathon 2024",
+        "link": "https://github.com/DucLUT/Junction_2024",
+        "description": "A tool to semi-automatically create 3D-models, building information models (BIM), out of 2D building floor plans. Uses React and Three.js for the front-end to construct, display and manipulate the BIMs, as well as Python and OpenCV for the back-end, to extract walls from the floor plan.",
+        "technologies": ["TypeScript", "React", "Three.js", "Python", "OpenCV"]
+    },
+    {
+        "title": "Junction Hackathon 2023",
+        "link": "https://github.com/neniuk/junction-hackathon-2023",
+        "description": "Dashboard tool with cards of varying information, from summarized news articles to graphed data and a chatbot. Utilized various LLMs and tools for managing and running these models, such as Ollama.ai.",
+        "technologies": ["JavaScript", "Node", "Express", "Ollama.ai"]
+    }
+]

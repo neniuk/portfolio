@@ -1,0 +1,13 @@
+{
+    "name": "Mattias",
+    "location": "Finland",
+    "summary": "Hi, I'm a master's student in computer science, with an interest in backend development & computer graphics. If you have any questions, feel free to contact me via LinkedIn.",
+    "socialLinks": {
+        "github": "https://github.com/neniuk",
+        "linkedin": "https://www.linkedin.com/in/mattiasvslotte/"
+    },
+    "assets": {
+        "profileImage": "client/src/assets/profile-picture-2.png",
+        "profileImageAlt": "Pixel art self portrait"
+    }
+}

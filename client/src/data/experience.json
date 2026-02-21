@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Cloud Software Trainee",
+        "startDate": "May 2025",
+        "endDate": "Aug 2025",
+        "description": "Worked in an agile team developing, fixing, testing & documenting both front-end UI components and cloud-native back-end services (microservices). Contributed to improving application performance and the addition of new features.",
+        "technologies": [
+            "TypeScript",
+            "Node",
+            "Angular",
+            "Jest",
+            "AWS",
+            "GitHub Actions"
+        ]
+    },
+    {
+        "title": "Cloud Software Trainee (Part-time)",
+        "startDate": "Feb 2025",
+        "endDate": "May 2025",
+        "description": "Worked in an agile team developing, fixing, testing & documenting both front-end UI components and cloud-native back-end services (microservices). Contributed to improving application performance and the addition of new features.",
+        "technologies": [
+            "TypeScript",
+            "Node",
+            "Angular",
+            "Jest",
+            "AWS",
+            "GitHub Actions"
+        ]
+    },
+    {
+        "title": "Database Design Intern Advisor",
+        "startDate": "Sep 2024",
+        "endDate": "Sep 2024",
+        "description": "Helped a new intern get familiar with their project and guided them on database design basics. Provided feedback on tasks and assisted in developing a project plan.",
+        "technologies": []
+    },
+    {
+        "title": "Cloud Software Trainee",
+        "startDate": "May 2024",
+        "endDate": "Aug 2024",
+        "description": "Worked in an agile team developing, fixing, testing & documenting both front-end UI components and cloud-native back-end services (microservices). Contributed to improving application performance and the addition of new features.",
+        "technologies": [
+            "TypeScript",
+            "Node",
+            "Angular",
+            "Jest",
+            "AWS",
+            "GitHub Actions"
+        ]
+    },
+    {
+        "title": "Database Design Intern",
+        "startDate": "Apr 2023",
+        "endDate": "Aug 2023",
+        "description": "Took part in the design, development, testing, and implementation of an internal tool and its database.",
+        "technologies": ["SQL", "VBA", "Python"]
+    }
+]

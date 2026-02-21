@@ -5,9 +5,7 @@ import profilePicture from "../../assets/profile-picture-2.png";
 import githubLogo from "../../assets/github-logo.png";
 import linkedInLogo from "../../assets/linkedin-logo.png";
 import locationPin from "../../assets/location-pin.png";
-
-const githubLink = "https://github.com/neniuk";
-const linkedInLink = "https://www.linkedin.com/in/mattiasvslotte/";
+import profileData from "../../data/profile.json";
 
 const ProfilePicture: React.FC = () => {
     const [isLoading, setIsLoading] = useState(true);
@@ -29,7 +27,7 @@ const ProfilePicture: React.FC = () => {
                         filter: "contrast(0.9) saturate(1.5) sepia(0.3) brightness(0.9)",
                     }}
                     src={profilePicture}
-                    alt="Pixel art self portrait"
+                    alt={profileData.assets.profileImageAlt}
                     width="180"
                     height="200"
                 />
@@ -40,7 +38,7 @@ const ProfilePicture: React.FC = () => {
 
 const ProfileTitle: React.FC = () => (
     <div className="flex flex-col items-center justify-center gap-1 md:items-start">
-        <h1 className="text-6xl">Mattias</h1>
+        <h1 className="text-6xl">{profileData.name}</h1>
         <div className="flex flex-row items-center gap-2">
             <img
                 className="h-auto w-[12px] select-none"
@@ -49,18 +47,14 @@ const ProfileTitle: React.FC = () => (
                 width="12"
                 height="21"
             />
-            <p className="text-lg text-gray-400">Finland</p>
+            <p className="text-lg text-gray-400">{profileData.location}</p>
         </div>
     </div>
 );
 
 const ProfileSummary: React.FC = () => (
     <div>
-        <p>
-            Hi, I'm a master's student in computer science, with an interest in
-            backend development & computer graphics. If you have any questions,
-            feel free to contact me via LinkedIn.
-        </p>
+        <p>{profileData.summary}</p>
     </div>
 );
 
@@ -82,7 +76,7 @@ const SocialLinks: React.FC = () => {
         <div className="flex flex-row gap-4">
             <a
                 className="select-none"
-                href={githubLink}
+                href={profileData.socialLinks.github}
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -100,7 +94,7 @@ const SocialLinks: React.FC = () => {
             </a>
             <a
                 className="select-none"
-                href={linkedInLink}
+                href={profileData.socialLinks.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
             >
