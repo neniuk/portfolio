@@ -3,12 +3,15 @@ import WavingKaomoji from "./WavingKaomoji.svelte";
 ---
 
 <footer class="w-full pb-20 pt-15">
-	<div class="mx-auto w-full max-w-4xl">
-		<p class="max-w-2xl text-lg leading-8 text-gray-700 dark:text-gray-300">
-			❀❀❀ Hey there, you've reached the end of the page <WavingKaomoji
-				client:load
-				intervalMs={200}
-			/> ❀❀❀
+	<div class="mx-auto w-[95%] max-w-4xl">
+		<p
+			class="max-w-2xl text-center text-lg leading-8 text-gray-700 dark:text-gray-300 sm:text-left"
+		>
+			<span class="hidden sm:inline"
+				>❀❀❀ Hey there, you've reached the end of the page
+			</span>
+			<WavingKaomoji client:load intervalMs={200} />
+			<span class="hidden sm:inline"> ❀❀❀</span>
 		</p>
 	</div>
 </footer>
