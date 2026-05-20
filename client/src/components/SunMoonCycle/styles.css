@@ -1,4 +1,0 @@
-.sun-moon-cycle-image {
-    image-rendering: crisp-edges; /* For Firefox */
-    image-rendering: pixelated; /* Fallback for other browsers */
-}

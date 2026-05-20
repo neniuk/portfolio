@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="81.259613mm"
+   height="81.259613mm"
+   viewBox="0 0 81.259613 81.259613"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-35.307693,-48.28846)">
+    <rect
+       style="fill:#000000;stroke-width:0.264583"
+       id="rect1"
+       width="81.259613"
+       height="81.259613"
+       x="35.307693"
+       y="48.28846"
+       rx="10"
+       ry="10" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.8px;font-family:Caladea;-inkscape-font-specification:Caladea;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:1.165;stroke-dasharray:none"
+       x="42.017223"
+       y="106.44231"
+       id="text1"><tspan
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.8px;font-family:Caladea;-inkscape-font-specification:Caladea;fill:#f9f9f9;stroke-width:1.165;stroke-dasharray:none"
+         x="42.017223"
+         y="106.44231">MS</tspan></text>
+  </g>
+</svg>
