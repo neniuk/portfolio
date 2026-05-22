@@ -10,5 +10,4 @@ export default defineConfig({
         plugins: [tailwindcss()],
     },
     site: "https://neniuk.github.io",
-    base: "/portfolio",
 });
