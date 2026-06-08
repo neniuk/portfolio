@@ -9,5 +9,5 @@ export default defineConfig({
     vite: {
         plugins: [tailwindcss()],
     },
-    site: "https://neniuk.github.io",
+    site: "https://neniuk.com",
 });

@@ -6,17 +6,30 @@ import RotatingHeadlines from "../components/RotatingHeadlines.svelte";
 const featuredProjects = [
 	{
 		title: "Gameboy Emulator",
-		description:
-			"C++ emulator for early DMG cartridges, built to explore low-level systems work and hardware behavior.",
-		stack: "C++ · Emulation · Systems",
+		description: "C++ emulator for early DMG cartridges.",
+		stack: "C++ · Emulation",
 		link: "https://github.com/neniuk/gbemu",
+	},
+	{
+		title: "Web Graphics Engine",
+		description:
+			"CPU-based 3D renderer for OBJ models implementing a model, view, projection pipeline",
+		stack: "Typescript · Astro",
+		link: "https://github.com/neniuk/web-graphics",
 	},
 	{
 		title: "Hackathon Project",
 		description:
-			"Multi-agent scheduling platform for wastewater pumping stations, combining a digital twin, OPC-UA server, and an MCP server.",
+			"2nd place in hackathon track. Multi-agent scheduling system for wastewater pumping stations, combining a digital twin, OPC-UA server, and MCP server.",
 		stack: "Python · TypeScript · React",
 		link: "https://github.com/alexha11/Junction-2025",
+	},
+	{
+		title: "Edit Your Commands",
+		description:
+			"Bash script for modifying previous or pasted commands in your text editor of choice",
+		stack: "Bash",
+		link: "https://github.com/neniuk/ecmd",
 	},
 	{
 		title: "Playlist Downloader",
@@ -27,6 +40,13 @@ const featuredProjects = [
 ];
 
 const experience = [
+	{
+		role: "Junior Integration Developer",
+		period: "May 2026 — Present",
+		description:
+			"Building and maintaining integrations for enterprise systems.",
+		stack: "C# · .NET",
+	},
 	{
 		role: "Cloud Software Trainee",
 		period: "Feb 2025 — Aug 2025 & May 2024 — Aug 2024",
@@ -113,7 +133,7 @@ const experience = [
 				<p
 					class="text-sm font-semibold uppercase tracking-[0.3em] text-gray-500 dark:text-gray-400"
 				>
-					Latest Projects
+					Projects
 				</p>
 				<h2
 					class="mt-2 text-3xl font-black tracking-tight text-black dark:text-white sm:text-4xl"
